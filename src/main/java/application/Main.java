@@ -1,7 +1,6 @@
 package application;
 
 import entities.Product;
-import entities.Usuario;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -33,42 +32,77 @@ public class Main {
 
         /////////////////// CLASS PRODUCT //////////////////////
 
-        Product product1 = new Product();
-        System.out.println("Digite o nome do produto: ");
-        product1.productName = sc.next();
-        System.out.println("Digite o preço do produto: ");
-        product1.productPrice = sc.nextDouble();
-        System.out.println("Digite a quantidade em estoque: ");
-        product1.productQuantity = sc.nextInt();
+//        Product product1 = new Product();
+//        System.out.println("Digite o nome do produto: ");
+//        product1.productName = sc.next();
+//        System.out.println("Digite o preço do produto: ");
+//        product1.productPrice = sc.nextDouble();
+//        System.out.println("Digite a quantidade em estoque: ");
+//        product1.productQuantity = sc.nextInt();
+//
+//        System.out.println();
+//        System.out.println("PRODUTO: " + product1.productName);
+//        System.out.println("PREÇO: " + product1.productPrice);
+//        System.out.println("QUANTIDADE EM ESTOQUE: " + product1.productQuantity);
+//        System.out.println("VALOR DO PRODUTO EM ESOTQUE: " + product1.stockValue());
+//
+//        System.out.println();
+//        System.out.println("Digite a quantidade de entrada no estoque");
+//        product1.stockEntry = sc.nextInt();
+//
+//        System.out.println();
+//        System.out.println("ESTOQUE ATUALIZADO");
+//        System.out.println("PRODUTO: " + product1.productName);
+//        System.out.println("PREÇO: " + product1.productPrice);
+//        System.out.println("QUANTIDADE EM ESTOQUE: " + product1.stockIn());
+//        System.out.println("VALOR DO PRODUTO EM ESOTQUE: " + product1.stockValue());
+//
+//
+//        System.out.println();
+//        System.out.println("Digite a quantidade de saida no estoque");
+//        product1.stockOutput = sc.nextInt();
+//
+//        System.out.println();
+//        System.out.println("ESTOQUE ATUALIZADO");
+//        System.out.println("PRODUTO: " + product1.productName);
+//        System.out.println("PREÇO: " + product1.productPrice);
+//        System.out.println("QUANTIDADE EM ESTOQUE: " + product1.stockOut());
+//        System.out.println("VALOR DO PRODUTO EM ESOTQUE: " + product1.stockValue());
 
-        System.out.println();
-        System.out.println("PRODUTO: " + product1.productName);
-        System.out.println("PREÇO: " + product1.productPrice);
-        System.out.println("QUANTIDADE EM ESTOQUE: " + product1.productQuantity);
-        System.out.println("VALOR DO PRODUTO EM ESOTQUE: " + product1.stockValue());
-
-        System.out.println();
-        System.out.println("Digite a quantidade de entrada no estoque");
-        product1.stockEntry = sc.nextInt();
-
-        System.out.println();
-        System.out.println("ESTOQUE ATUALIZADO");
-        System.out.println("PRODUTO: " + product1.productName);
-        System.out.println("PREÇO: " + product1.productPrice);
-        System.out.println("QUANTIDADE EM ESTOQUE: " + product1.stockIn());
-        System.out.println("VALOR DO PRODUTO EM ESOTQUE: " + product1.stockValue());
 
 
-        System.out.println();
-        System.out.println("Digite a quantidade de saida no estoque");
-        product1.stockOutput = sc.nextInt();
 
-        System.out.println();
-        System.out.println("ESTOQUE ATUALIZADO");
-        System.out.println("PRODUTO: " + product1.productName);
-        System.out.println("PREÇO: " + product1.productPrice);
-        System.out.println("QUANTIDADE EM ESTOQUE: " + product1.stockOut());
-        System.out.println("VALOR DO PRODUTO EM ESOTQUE: " + product1.stockValue());
+//        Product product1 = new Product();
+//
+//        System.out.println("Digite o nome do produto: ");
+//        product1.productName = sc.next();
+//        System.out.println("Digite o preço do produto: ");
+//        product1.productPrice = sc.nextDouble();
+//        System.out.println("Digite a quantidade em estoque: ");
+//        product1.productQuantity = sc.nextInt();
+//
+//        System.out.println();
+//        System.out.println("PRODUCT DATA");
+//        System.out.println(product1);
+//
+//        int quantity;
+//        System.out.println();
+//        System.out.println("Digite a quantidade de entrada no estoque: ");
+//        quantity = sc.nextInt();
+//        product1.stockIn(quantity);
+//
+//        System.out.println();
+//        System.out.println("PRODUCT DATA");
+//        System.out.println(product1);
+//
+//        System.out.println();
+//        System.out.println("Digite a quantidade de saída no estoque: ");
+//        quantity = sc.nextInt();
+//        product1.stockOut(quantity);
+//
+//        System.out.println();
+//        System.out.println("PRODUCT DATA");
+//        System.out.println(product1);
 
 
         sc.close();

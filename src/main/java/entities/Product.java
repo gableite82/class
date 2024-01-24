@@ -8,15 +8,24 @@ public class Product {
     public int stockOutput;
 
 
-    public int stockIn(){
-         return productQuantity =  productQuantity + stockEntry;
+    public void stockIn(int stockEntry){
+       this.productQuantity = productQuantity + stockEntry;
     }
 
-    public int stockOut(){
-        return productQuantity =  productQuantity - stockOutput;
+    public void stockOut(int stockOutput){
+        this.productQuantity =  productQuantity - stockOutput;
     }
 
     public double stockValue(){
         return productQuantity * productPrice;
+    }
+
+    @Override
+    public String toString() {
+        return "PRODUTO: " + productName + "\n"
+                + "PREÇO: " + String.format("%.2f", productPrice) + "\n"
+                + "QUANTIDADE ESTOQUE: " + productQuantity + "\n"
+                + "VALOR PRODUTO EM ESTOQUE: " + stockValue();
+
     }
 }
