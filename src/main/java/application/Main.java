@@ -70,7 +70,7 @@ public class Main {
 //        System.out.println("VALOR DO PRODUTO EM ESOTQUE: " + product1.stockValue());
 
 
-
+           /////////////// OUTRO EXEMPLO ///////////////////////////////////
 
 //        Product product1 = new Product();
 //
