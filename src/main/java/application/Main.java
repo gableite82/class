@@ -1,5 +1,6 @@
 package application;
 
+import entities.Aluno;
 import entities.Employee;
 import entities.Product;
 
@@ -140,6 +141,32 @@ public class Main {
 //        System.out.println();
 //        System.out.println("Emplyee: " + employee1.emplyeeName + ", R$ " + String.format("%.2f", employee1.netSalary()));
 
+
+        /////////////// 2 /////////////////////
+
+        // Fazer um prohrama que leia o nome de um aluno e as trê notas que ele obteve
+        // nos três trimestre do ano (primeiro trimestre vale 30 e o segundo e terceiro
+        // 35 cada). ao Final mostrar qual a nota do alunono ano. Dizer também se o aluno
+        // está aprovado (PASS) ou não (FAILED) e, em caso negativo, quantos pontos
+        // faltam para o aluno obter o mínimo para ser aprovado(Que é 60% da nota).
+        // Criar classe student para resolver o problema.
+
+        Aluno aluno1 = new Aluno();
+
+        System.out.println("Digite o nome do aluno: ");
+        aluno1.nome = sc.next();
+        System.out.println("Digite a primeira nota do Aluno:");
+        aluno1.nota1 = sc.nextDouble();
+        System.out.println("Digite a segunda nota do Aluno:");
+        aluno1.nota2 = sc.nextDouble();;
+        System.out.println("Digite a segunda nota do Aluno:");
+        aluno1.nota3 = sc.nextDouble();
+
+        System.out.println();
+        System.out.println(aluno1);
+        System.out.println();
+        System.out.println(aluno1.aprovacao());
+        System.out.println(aluno1.precisaNota());
 
 
         sc.close();
