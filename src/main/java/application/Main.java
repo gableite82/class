@@ -1,5 +1,6 @@
 package application;
 
+import entities.Employee;
 import entities.Product;
 
 import java.util.Locale;
@@ -103,6 +104,42 @@ public class Main {
 //        System.out.println();
 //        System.out.println("PRODUCT DATA");
 //        System.out.println(product1);
+
+
+        ///////////////////////// EXERCÍCIOS /////////////////////////////
+
+                    /////////////// 2 /////////////////////
+
+        // Fazer um programa para ler os dados de um funcionário (nome, salário e imposto)'
+        // Em seguida mostrar os dados do funcionário (nome e salário líquido).
+        // Em seguida aumentas o salário do funcionário com base em uma porcentagem dada
+        // (somente salário bruto é afetada pela porcentagem) e mostrar novamente os dados
+        // do funcionário.
+
+//        Employee employee1 = new Employee();
+//
+//        System.out.println("Digite o nome do funcionário: ");
+//        employee1.emplyeeName = sc.next();
+//        System.out.println("Digite o salário bruto do funcionário: ");
+//        employee1.grossSalary = sc.nextDouble();
+//        System.out.println("Digite a taxa de desconto do funcionário: ");
+//        employee1.tax = sc.nextDouble();
+//
+//        System.out.println();
+//        System.out.println(employee1);
+//
+//        System.out.println();
+//        System.out.println("Emplyee: " + employee1.emplyeeName + ", R$ " + String.format("%.2f", employee1.netSalary()));
+//
+//        double addTax;
+//        System.out.println();
+//        System.out.println("qual porcentagem para aumentar o salário");
+//        addTax = sc.nextDouble();
+//        employee1.addPercentage(addTax);
+//
+//        System.out.println();
+//        System.out.println("Emplyee: " + employee1.emplyeeName + ", R$ " + String.format("%.2f", employee1.netSalary()));
+
 
 
         sc.close();
