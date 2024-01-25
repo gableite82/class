@@ -3,6 +3,7 @@ package application;
 import entities.Aluno;
 import entities.Employee;
 import entities.Product;
+import util.currencyCoverter;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -74,14 +75,15 @@ public class Main {
 
            /////////////// OUTRO EXEMPLO ///////////////////////////////////
 
-//        Product product1 = new Product();
-//
+
+
 //        System.out.println("Digite o nome do produto: ");
-//        product1.productName = sc.next();
+//        String productName = sc.next();
 //        System.out.println("Digite o preço do produto: ");
-//        product1.productPrice = sc.nextDouble();
+//        Double productPrice = sc.nextDouble();
 //        System.out.println("Digite a quantidade em estoque: ");
-//        product1.productQuantity = sc.nextInt();
+//        int productQuantity = sc.nextInt();
+//        Product product1 = new Product(productName, productPrice, productQuantity);
 //
 //        System.out.println();
 //        System.out.println("PRODUCT DATA");
@@ -151,24 +153,47 @@ public class Main {
         // faltam para o aluno obter o mínimo para ser aprovado(Que é 60% da nota).
         // Criar classe student para resolver o problema.
 
-        Aluno aluno1 = new Aluno();
+//        Aluno aluno1 = new Aluno();
+//
+//        System.out.println("Digite o nome do aluno: ");
+//        aluno1.nome = sc.next();
+//        System.out.println("Digite a primeira nota do Aluno:");
+//        aluno1.nota1 = sc.nextDouble();
+//        System.out.println("Digite a segunda nota do Aluno:");
+//        aluno1.nota2 = sc.nextDouble();;
+//        System.out.println("Digite a segunda nota do Aluno:");
+//        aluno1.nota3 = sc.nextDouble();
+//
+//        System.out.println();
+//        System.out.println(aluno1);
+//        System.out.println();
+//        System.out.println(aluno1.aprovacao());
+//        System.out.println(aluno1.precisaNota());
 
-        System.out.println("Digite o nome do aluno: ");
-        aluno1.nome = sc.next();
-        System.out.println("Digite a primeira nota do Aluno:");
-        aluno1.nota1 = sc.nextDouble();
-        System.out.println("Digite a segunda nota do Aluno:");
-        aluno1.nota2 = sc.nextDouble();;
-        System.out.println("Digite a segunda nota do Aluno:");
-        aluno1.nota3 = sc.nextDouble();
+        ////////////// EXERCICIO FUNÇÕES ESTÁTICAS ////////////////////////
 
-        System.out.println();
-        System.out.println(aluno1);
-        System.out.println();
-        System.out.println(aluno1.aprovacao());
-        System.out.println(aluno1.precisaNota());
+        //////////////////// 1 ///////////////////////////////
 
+        // Faça um programa para ler a cotação do dolar, e depois um valor em dolares
+        // a ser compradopor uma pessoa em reais. Informar quanto a pessoa vai pagar
+        // pelos dolares, considerando ainda que a pessoa terá que pagar 6% do IOF
+        // sobre o valor em dolar. Criar uma clsse  para ser responsável pelo dolar;
+
+//        double valorDollar;
+//        double comprarDollar;
+//
+//        System.out.println("qual é o preço do dólar ?");
+//        valorDollar = sc.nextDouble();
+//        System.out.println("Quando dolares você quer comprar ?");
+//        comprarDollar = sc.nextDouble();
+//
+//        double valorEmReais = currencyCoverter.converter(valorDollar, comprarDollar);
+//
+//        System.out.println();
+//        System.out.println("VALOR A SERR PAGO EM REAIS: " + valorEmReais);
 
         sc.close();
     }
+
+
 }

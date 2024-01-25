@@ -15,7 +15,6 @@ public class Aluno {
                 + "TERCEIRA NOTA: " + nota3 + "\n"
                 + "MEDIA: " + media();
     }
-
     public double media(){
         return (nota1 + nota2 + nota3) / 3;
     }
